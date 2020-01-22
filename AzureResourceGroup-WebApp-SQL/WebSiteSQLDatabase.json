@@ -78,6 +78,10 @@
       }
     }
   },
+  "variables": {
+    "webSiteName":, 
+    "sqlserverName": 
+  },
    "resources": [
     {
       "name": "[variables('sqlserverName')]",
