@@ -79,8 +79,8 @@
     }
   },
   "variables": {
-    "__webSiteName__":,
-    "__sqlserverName__":
+    "webSiteName": "__webSiteName__",
+    "sqlserverName": "__sqlserverName__"
   },
   "resources": [
     {
