@@ -79,10 +79,10 @@
     }
   },
   "variables": {
-    "webSiteName":, 
-    "sqlserverName": 
+    "webSiteName": "[concat('webSite', uniqueString(resourceGroup().id))]",
+    "sqlserverName": "[concat('sqlserver', uniqueString(resourceGroup().id))]"
   },
-   "resources": [
+  "resources": [
     {
       "name": "[variables('sqlserverName')]",
       "type": "Microsoft.Sql/servers",
