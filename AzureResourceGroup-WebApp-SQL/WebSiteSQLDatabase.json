@@ -79,8 +79,8 @@
     }
   },
   "variables": {
-    "webSiteName": "#{webSiteName}#",
-    "sqlserverName": "#{sqlserverName}#"
+    "webSiteName": "webnswijavapoc",
+    "sqlserverName": "sqlnswijavapoc#"
   },
   "resources": [
     {
